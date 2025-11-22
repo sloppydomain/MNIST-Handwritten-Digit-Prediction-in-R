@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "locale": "en_IN",
+  "platform": "4.5.1",
+  "metadata": {
+    "appmode": "shiny",
+    "primary_rmd": null,
+    "primary_html": null,
+    "content_category": null,
+    "has_parameters": false
+  },
+  "environment": {
+    "r": {
+      "requires": "~=4.5.0"
+    }
+  },
+  "packages": {
+    "renv": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "renv",
+        "Type": "Package",
+        "Title": "Project Environments",
+        "Version": "1.1.5",
+        "Authors@R": "c(\n    person(\"Kevin\", \"Ushey\", role = c(\"aut\", \"cre\"), email = \"kevin@rstudio.com\",\n           comment = c(ORCID = \"0000-0003-2880-7407\")),\n    person(\"Hadley\", \"Wickham\", role = c(\"aut\"), email = \"hadley@rstudio.com\",\n           comment = c(ORCID = \"0000-0003-4757-117X\")),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n    )",
+        "Description": "A dependency management toolkit for R. Using 'renv', you can create\n    and manage project-local R libraries, save the state of these libraries to\n    a 'lockfile', and later restore your library as required. Together, these\n    tools can help make your projects more isolated, portable, and reproducible.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://rstudio.github.io/renv/, https://github.com/rstudio/renv",
+        "BugReports": "https://github.com/rstudio/renv/issues",
+        "Imports": "utils",
+        "Suggests": "BiocManager, cli, compiler, covr, cpp11, devtools, generics,\ngitcreds, jsonlite, jsonvalidate, knitr, miniUI, modules,\npackrat, pak, R6, remotes, reticulate, rmarkdown, rstudioapi,\nshiny, testthat, uuid, waldo, yaml, webfakes",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.3.2",
+        "VignetteBuilder": "knitr",
+        "Config/Needs/website": "tidyverse/tidytemplate",
+        "Config/testthat/edition": "3",
+        "Config/testthat/parallel": "true",
+        "Config/testthat/start-first": "bioconductor,python,install,restore,snapshot,retrieve,remotes",
+        "NeedsCompilation": "no",
+        "Packaged": "2025-07-24 20:47:34 UTC; kevin",
+        "Author": "Kevin Ushey [aut, cre] (ORCID: <https://orcid.org/0000-0003-2880-7407>),\n  Hadley Wickham [aut] (ORCID: <https://orcid.org/0000-0003-4757-117X>),\n  Posit Software, PBC [cph, fnd]",
+        "Maintainer": "Kevin Ushey <kevin@rstudio.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2025-07-24 21:40:02 UTC",
+        "Built": "R 4.5.2; ; 2025-11-08 02:02:28 UTC; windows",
+        "RemoteType": "standard",
+        "RemotePkgRef": "renv",
+        "RemoteRef": "renv",
+        "RemoteRepos": "https://cran.rstudio.com",
+        "RemoteSha": "1.1.5"
+      }
+    }
+  },
+  "files": {
+    ".RData": {
+      "checksum": "987149260ce88b001647896c655a19e2"
+    },
+    ".RDataTmp": {
+      "checksum": "f787d611fd531d6193cbd98651cb4512"
+    },
+    ".Rprofile": {
+      "checksum": "1498b2de91e48c1c19508f9e36c22080"
+    },
+    "app.R": {
+      "checksum": "1a0bca99231e39f8ccaff4508b6a46e3"
+    },
+    "mnist_history.rds": {
+      "checksum": "7fa02af96e076f1c201fdfcc08da665b"
+    },
+    "mnist_model.keras": {
+      "checksum": "ffe6dbdc2873bdf5e7c6a1ed72ca0259"
+    },
+    "mnist_test_data.rds": {
+      "checksum": "5669e1d6357e7317dd4b48512a9dd6ce"
+    },
+    "renv.lock": {
+      "checksum": "88c2e584032e69638009ba9ffb86ed73"
+    },
+    "train_mnist.R": {
+      "checksum": "b1bd18beec30fff32b857087bcc91e0d"
+    }
+  },
+  "users": null
+}
